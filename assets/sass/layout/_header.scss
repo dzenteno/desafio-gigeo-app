@@ -1,0 +1,48 @@
+.header{
+    padding: 0;
+}
+
+.header__item--banner{
+    width: 100%;
+    height: 30vh;
+    background-image: url("../img/image-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header__item--profile{
+    .header__item--perfil{
+        width: auto;
+    }
+    img{
+        border-radius: 100%;
+        width: 6.5rem;
+    }
+}
+
+.header__item--btn{
+    width: 50%;
+    button{
+        margin-left: 0.5rem;
+        padding: 0.5rem 0.8rem;
+        border: none;
+        color: #FFF;
+    }
+    .header__item--btn-msn{
+        background-color: #49C9D6;
+    }
+    .header__item--btn-follow{
+        background-color: #F35B51;
+    }
+}
+
+.content__item{
+    margin: 0.5rem;
+    cursor: pointer;
+    min-height: 16rem;
+    &:hover{
+        background-color: lightgrey;
+    }
+}
